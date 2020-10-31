@@ -6,15 +6,15 @@ clone the repository and run:<br/>
 # How I use it
 My personal prefference is to have dmenu opened as a list, positioned in the center, but slightly to the right:<br/>
 <br/>
-|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|<br/>
-|                                |<br/>
-|                                |<br/>
-| |‾‾‾‾‾‾‾‾‾‾‾|                  |<br/>
-| |dmenu      |                  |<br/>
-| |___________|                  |<br/>
-|                                |<br/>
-|                                |<br/>
-|________________________________|<br/>
+|‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|<br/>
+|...............................|<br/>
+|...............................|<br/>
+|.|‾‾‾‾‾‾‾‾‾‾‾|.................|<br/>
+|.|dmenu------|.................|<br/>
+|.|___________|.................|<br/>
+|...............................|<br/>
+|...............................|<br/>
+|_______________________________|<br/>
 <br/>
 So the command I usually bind to a key is:<br/>
 ```dmenu_run -l 10 -bw 8 -x 500 -y 800 -w 1400 -nf "#bbbbbb" -sb "#18815f" -sf "#eeeeee"```
