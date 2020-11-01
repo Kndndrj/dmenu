@@ -6,7 +6,7 @@ Just a simple patched version of dmenu. The first patch is a simple ```border```
 clone the repository and run:<br/>
 ```sudo make install```
 ## How I use it
-My personal prefference is to have dmenu opened as a list, positioned in the center, but slightly to the right:<br/>
+My personal prefference is to have dmenu opened as a list, positioned in the center, but slightly to the left:<br/>
 ```
 |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
 |                               |
